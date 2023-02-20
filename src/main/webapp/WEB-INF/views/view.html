@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head th:replace="/layout :: head"></head>
 <body>
-<h3>View Customer</h3>
+<h3>View Employee</h3>
 <p>
-  <a th:href="@{/customer}">
-    Back to customer list
+  <a th:href="@{/employee}">
+    Back to employee list
   </a>
 </p>
 <div id="detail">
-  <div class="cusdetail">
+  <div class="empdetail">
     <label>Name:</label>
-    <label th:text="${customer.name}"></label>
+    <label th:text="${employee.name}"></label>
   </div>
-  <div class="cusdetail">
+  <div class="empdetail">
     <label>Email:</label>
-    <label th:text="${customer.email}"></label>
+    <label th:text="${employee.email}"></label>
   </div>
-  <div class="cusdetail">
+  <div class="empdetail">
     <label>Address:</label>
-    <label th:text="${customer.address}"></label>
+    <label th:text="${employee.address}"></label>
   </div>
 </div>
 </body>

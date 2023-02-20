@@ -1,4 +1,4 @@
-package com.example.customerdatamanagement.configuration;
+package com.example.employeemanagement.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

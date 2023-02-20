@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head th:replace="/layout :: head"></head>
 <body>
-<h3>Remove Customer</h3>
+<h3>Remove Employee</h3>
 <p>
-  <a th:href="@{/customer}">
-    Back to customer list
+  <a th:href="@{/employee}">
+    Back to employee list
   </a>
 </p>
 <div id="form">
-  <form action="#" th:action="@{/customer/delete}" th:object="${customer}"
+  <form action="#" th:action="@{/employee/delete}" th:object="${employee}"
         method="POST" novalidate="novalidate">
     <input type="hidden" th:field="*{id}"/>
     <div>

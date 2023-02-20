@@ -1,4 +1,4 @@
-package com.example.customerdatamanagement;
+package com.example.employeemanagement;
 
 import java.io.*;
 import javax.servlet.http.*;

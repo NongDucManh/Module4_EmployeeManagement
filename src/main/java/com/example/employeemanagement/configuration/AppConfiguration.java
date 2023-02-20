@@ -1,4 +1,4 @@
-package com.example.customerdatamanagement.configuration;
+package com.example.employeemanagement.configuration;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -15,7 +15,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.example.customerdatamanagement.controller")
+@ComponentScan("com")
 public class AppConfiguration implements WebMvcConfigurer,  ApplicationContextAware {
 
     private ApplicationContext applicationContext;

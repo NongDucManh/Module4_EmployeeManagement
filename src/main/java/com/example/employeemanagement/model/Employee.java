@@ -1,15 +1,15 @@
-package com.example.customerdatamanagement.model;
+package com.example.employeemanagement.model;
 
-public class Customer {
+public class Employee {
     private int id;
     private String name;
     private String email;
     private String address;
 
-    public Customer() {
+    public Employee() {
     }
 
-    public Customer(int id, String name, String email, String address) {
+    public Employee(int id, String name, String email, String address) {
         this.id = id;
         this.name = name;
         this.email = email;
